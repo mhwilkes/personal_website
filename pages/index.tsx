@@ -3,7 +3,7 @@ import { Section, Card, Content, Title } from 'rbx'
 import Layout from '../components/Layout'
 import React from 'react'
 
-const Home = (): JSX.Element => (
+const HomePage = () => (
   <Layout>
     <Section>
       <Card>
@@ -46,4 +46,4 @@ const Home = (): JSX.Element => (
   </Layout>
 )
 
-export default Home
+export default HomePage

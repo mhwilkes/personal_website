@@ -2,7 +2,7 @@ import { Section, Title } from 'rbx'
 import Layout from '../components/Layout'
 import React from 'react'
 
-const AboutPage = (): JSX.Element => {
+const PortfolioPage = () => {
   return (
     <Layout>
       <Section>
@@ -12,4 +12,4 @@ const AboutPage = (): JSX.Element => {
   )
 }
 
-export default AboutPage
+export default PortfolioPage

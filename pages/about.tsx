@@ -2,7 +2,7 @@ import { Section, Title } from 'rbx'
 import Layout from '../components/Layout'
 import React from 'react'
 
-const AboutPage = (): JSX.Element => {
+const AboutPage = () => {
   return (
     <Layout>
       <Section>

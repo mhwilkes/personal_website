@@ -11,7 +11,7 @@ import {
 } from 'rbx'
 import React from 'react'
 
-const Layout = ({ children }: { children: JSX.Element }): JSX.Element => {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <Generic>
       <Navbar color="primary">
