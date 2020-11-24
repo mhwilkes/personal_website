@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bulma-pro/css/bulma.css'
-import { PageTransition } from 'next-page-transitions'
+const PageTransition = require('next-page-transitions')
 import Loader from '../components/Loader'
 import { AppProps } from 'next/app'
 
